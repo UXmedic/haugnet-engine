@@ -1,0 +1,26 @@
+# Cursor Configuration
+ 
+Read AGENTS.md for complete project rules, workflow, and development guidelines.
+ 
+## Quick Reference
+- Study docs/ and devlog/ for project context and specifications
+- Follow research → plans → specs → implementation workflow
+- Use TypeScript with 2-space indentation, semicolons, double quotes
+- Identify as "AI-agent: Cursor" in all documents you create
+- Parallel subagent coordination allowed (max 500 subagents)
+- Use Nx for task execution: `pnpm nx <command>`
+ 
+## Key Directories
+- devlog/research/ - Research findings
+- devlog/plans/ - Implementation plans  
+- docs/specs/ - Feature specifications
+- docs/ - Public documentation
+ 
+## Workflow
+1. Research phase: devlog/research/report_*.md
+2. Planning phase: devlog/plans/plan_*.md
+3. Implementation: docs/specs/spec_*.md
+4. Progress tracking: devlog/journal/log_*.md
+ 
+## Author Attribution
+Always identify yourself as "AI-agent: Cursor" when creating or modifying documents.
